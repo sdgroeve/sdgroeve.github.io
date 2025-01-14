@@ -1,7 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Website Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .text-section {
+            max-width: 50%;
+        }
+        .text-section h1 {
+            font-size: 3rem;
+            color: #000;
+        }
+        .text-section h1 span {
+            color: #4A90E2;
+        }
+        .text-section p {
+            font-size: 1rem;
+            color: #555;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            border: none;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .primary-btn {
+            background-color: #000;
+            color: white;
+        }
+        .secondary-btn {
+            background-color: #4A90E2;
+            color: white;
+        }
+        .image-section img {
+            max-width: 300px;
+            border-radius: 50%;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+        }
+        .nav a {
+            text-decoration: none;
+            margin-right: 20px;
+            color: black;
+        }
+        .connect-btn {
+            background-color: #000;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .text-section, .image-section {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header class="nav">
+        <div>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Blog</a>
+        </div>
+        <a href="#" class="connect-btn">Connect</a>
+    </header>
+
+    <section class="container">
+        <div class="text-section">
+            <h1>I Build Custom <span>Website Solutions</span><br>That Help Your <span>Business Grow</span></h1>
+            <p>I help you increase conversion and performance in every possible way.</p>
+            <div class="buttons">
+                <button class="primary-btn">See my work</button>
+                <button class="secondary-btn">Start a project</button>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="profile.jpg" alt="Profile Picture">
+        </div>
+    </section>
 </body>
 </html>
