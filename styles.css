@@ -1,0 +1,122 @@
+/* General Styles */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #e7f1fb;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #e7f1fb
+
+;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e7f1fb;
+}
+
+/* Typing Animation */
+#typing-animation {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: 2px solid #333;
+    white-space: nowrap;
+    display: inline-block;
+    padding-right: 4px;
+}
+
+/* Cards */
+.card {
+    border: 1px solid #ddd;
+    background-color: #e7f1fb
+
+;
+    margin-bottom: 20px;
+}
+
+/* Timeline in Experience Section */
+.timeline .card {
+    border-left: 2px solid #333;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+.card .fas,
+.card .fab {
+    opacity: 1;
+}
+
+/* Contact Section */
+.contact-section a {
+    color: #333;
+}
+
+/* Form Styling */
+.form-control {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Buttons */
+.btn {
+    padding: 0.5rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+/* Page Headers */
+section h2 {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+section h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 2px;
+    background: #333;
+}
+
+/* Active Navigation Link */
+.nav-link.active {
+    color: #333 !important;
+    font-weight: 600;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+    
+    .timeline .card {
+        margin-left: 0;
+    }
+}

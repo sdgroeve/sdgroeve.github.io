@@ -1,426 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-<link href="images/profile-placeholder.svg" rel="icon" />
-<title>Callum - Personal Portfolio HTML Template</title>
-<meta name="description" content="Callum is responsive bootstrap 5 one page personal portfolio html template.">
-<meta name="author" content="harnishdesign.net">
-
-<!-- Web Fonts -->
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
-
-<!-- Stylesheet -->
-<link rel="stylesheet" type="text/css" href="vendor/animate/animate.min.css" />
-<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css" />
-<link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css" />
-<link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
-
-<!-- Preloader -->
-<div class="preloader">
-  <div class="lds-ellipsis">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-</div>
-<!-- Preloader End --> 
-
-<!-- Document Wrapper   
-=============================== -->
-<div id="main-wrapper"> 
-  <!-- Header -->
-  <header id="header" class="sticky-top"> 
-    <!-- Navbar -->
-    <nav class="primary-menu navbar navbar-expand-none navbar-overlay navbar-overlay-dark bg-transparent border-bottom-0 text-5 fw-600">
-      <div class="container"> 
-        <!-- Logo --> 
-        <a class="logo" href="index.html" title="Callum"> <img src="images/profile-placeholder.svg" width="40" height="40" alt="Callum"/> </a> 
-        <!-- Logo End -->
-        <div class="text-3 ms-auto me-2"><span class="text-4 me-2"><i class="fas fa-phone"></i></span>(060) 444 434 444</div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
-        <div id="header-nav" class="collapse navbar-collapse">
-          <div class="d-flex flex-column h-100 align-items-center justify-content-center">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About Me</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">What I Do</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#faq">FAQ</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">Client Speak</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact Me</a></li>
-            </ul>
-            <ul class="social-icons social-icons-light social-icons-lg social-icons-light d-inline-flex mt-4">
-              <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
-              <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
-              <li class="social-icons-linkedin"><a data-bs-toggle="tooltip" href="http://www.linkedin.com/" target="_blank" title="" data-bs-original-title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="social-icons-github"><a data-bs-toggle="tooltip" href="http://www.github.com/" target="_blank" title="" data-bs-original-title="GitHub"><i class="fab fa-github"></i></a></li>
-            </ul>
-          </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sven Degroeve</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Me, Myself and I (professionally)</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-    <!-- Navbar End --> 
-  </header>
-  <!-- Header End --> 
-  
-  <!-- Content
-  ============================================= -->
-  <div id="content" role="main"> 
-    <!-- Intro
-    ============================================= -->
-    <section id="home" class="bg-primary d-flex fullscreen position-relative py-5">
-      <div class="container my-auto py-4">
-        <div class="row">
-          <div class="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0 wow fadeIn">
-            <h1 class="text-12 fw-300 mb-0 text-uppercase">Hi, I'm a Freelancer</h1>
-            <div class="typed-strings">
-              <p>Designer</p>
-              <p>Developer</p>
-              <p>Callum</p>
-            </div>
-            <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1"><span class="typed"></span></h2>
-            <p class="text-5">based in Los Angeles, USA.</p>
-            <a href="#portfolio" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My Works</a><a href="#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a>
-          </div>
-          <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
-            <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn"> <img class="img-fluid rounded-pill d-block" src="images/profile-placeholder.svg" title="I'm Callum" alt=""></div>
-          </div>
-        </div>
-      </div>
-      <a href="#about" class="scroll-down-arrow text-dark smooth-scroll"><span class="animated"><i class="fas fa-arrow-down"></i></span></a>
-    </section>
-    <!-- Intro end --> 
-    
-    <!-- About
-    ============================================= -->
-    <section id="about" class="section">
-      <div class="container"> 
-        <!-- Heading -->
-        <p class="text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">About Me</span></p>
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">Know Me More</h2>
-        <!-- Heading end-->
-        
-        <div class="row">
-          <div class="col-lg-8 text-center text-lg-start wow fadeInUp">
-            <h2 class="text-8 fw-400 mb-3">Hi, I'm <span class="fw-700 border-bottom border-3 border-primary">Callum Smith</span></h2>
-            <p class="text-5">I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client's requirements is our moto.</p>
-          </div>
-          <div class="col-lg-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="featured-box style-4">
-              <div class="featured-box-icon text-25 fw-500 bg-primary rounded-circle"><span class="wow heartBeat" data-wow-delay="1.3s">22</span></div>
-              <h3 class="text-7 wow rubberBand" data-wow-delay="2s">Years of <span class="fw-700">Experience</span></h3>
-            </div>
-          </div>
-        </div>
-        <div class="row gy-3 mt-4">
-          <div class="col-6 col-lg-3 wow fadeInUp">
-            <p class="text-muted fw-500 mb-0">Name:</p>
-            <p class="text-4 text-dark fw-600 mb-0">Callum Smith</p>
-          </div>
-          <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-            <p class="text-muted fw-500 mb-0">Email:</p>
-            <p class="text-4 fw-600 mb-0"><a class="link-dark" href="mailto:chat@callum.com">chat@callum.com</a></p>
-          </div>
-          <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-            <p class="text-muted fw-500 mb-0">Date of birth:</p>
-            <p class="text-4 text-dark fw-600 mb-0">11 November, 1987</p>
-          </div>
-          <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-            <p class="text-muted fw-500 mb-0">From:</p>
-            <p class="text-4 text-dark fw-600 mb-0">Los Angeles, USA.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About end --> 
-    
-    <!-- Services
-    ============================================= -->
-    <section id="services" class="section bg-light">
-      <div class="container"> 
-        <!-- Heading -->
-        <p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">What I Do?</span></p>
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">How I can help your next project</h2>
-        <!-- Heading end-->
-        
-        <div class="row gy-5 mt-5">
-          <div class="col-sm-6 col-lg-4 wow fadeInUp">
-            <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-palette"></i> </div>
-              <h3 class="text-6 fw-600 mb-3">Graphic Design</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInUp">
-            <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-desktop"></i></div>
-              <h3 class="text-6 fw-600 mb-3">Web Design</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInUp">
-            <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-pencil-ruler"></i> </div>
-              <h3 class="text-6 fw-600 mb-3">Web Development</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInUp">
-            <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-paint-brush"></i> </div>
-              <h3 class="text-6 fw-600 mb-3">Brand Identity</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInUp">
-            <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-chart-area"></i> </div>
-              <h3 class="text-6 fw-600 mb-3">Business Analysis</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInUp">
-            <div class="featured-box text-center px-md-4">
-              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-bullhorn"></i> </div>
-              <h3 class="text-6 fw-600 mb-3">Digital Marketing</h3>
-              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Services end --> 
-    
-    <!-- Resume
-    ============================================= -->
-    <section id="resume" class="section">
-      <div class="container"> 
-        <!-- Heading -->
-        <p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">Resume</span></p>
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">A summary of My Resume</h2>
-        <!-- Heading end-->
-        
-        <div class="row g-5 mt-5"> 
-          <!-- My Education -->
-          <div class="col-lg-6 wow fadeInUp">
-            <h2 class="text-7 fw-600 mb-4 pb-2">My Education</h2>
-            <div class="border-start border-2 border-primary ps-3">
-              <h3 class="text-5">Master in Computer Engineering</h3>
-              <p class="mb-2">Harvard University / 2015 - 2017</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
-              <hr class="my-4">
-              <h3 class="text-5">Bachelor in Computer Engineering</h3>
-              <p class="mb-2">University of California / 2014 - 2015</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
-              <hr class="my-4">
-              <h3 class="text-5">Computer Science</h3>
-              <p class="mb-2">International University / 2013 - 2014</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
-            </div>
-          </div>
-          <!-- My Experience -->
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-            <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
-            <div class="border-start border-2 border-primary ps-3">
-              <h3 class="text-5">Sr. Front End Developer</h3>
-              <p class="mb-2">Apple Inc / 2020 - Current</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
-              <hr class="my-4">
-              <h3 class="text-5">Jr. Front End Developer</h3>
-              <p class="mb-2">Dribbble Inc / 2018 - 2020</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
-              <hr class="my-4">
-              <h3 class="text-5">HTML Developer</h3>
-              <p class="mb-2">Adobe Inc / 2017 - 2018</p>
-              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- My Skills -->
-        <h2 class="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp">My Skills</h2>
-        <div class="row gx-5">
-          <div class="col-md-6 wow fadeInUp">
-            <p class="fw-500 text-start mb-2">Web Design <span class="float-end">65%</span></p>
-            <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p class="fw-500 text-start mb-2">HTML/CSS <span class="float-end">95%</span></p>
-            <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p class="fw-500 text-start mb-2">JavaScript <span class="float-end">80%</span></p>
-            <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <p class="fw-500 text-start mb-2">React JS <span class="float-end">70%</span></p>
-            <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p class="fw-500 text-start mb-2">Angular Js <span class="float-end">60%</span></p>
-            <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p class="fw-500 text-start mb-2">Bootstrap <span class="float-end">99%</span></p>
-            <div class="progress progress-sm mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-        <p class="text-center mt-5 wow fadeInUp"><a href="#" class="btn btn-outline-dark shadow-none rounded-0">Download CV</a></p>
-      </div>
-    </section>
-    <!-- Resume end --> 
-    
-    <!-- Portfolio
-    ============================================= -->
-    <section id="portfolio" class="section bg-light">
-      <div class="container"> 
-        <!-- Heading -->
-        <p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">Portfolio</span></p>
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">Some of my most recent projects</h2>
-        <!-- Heading end--> 
-        
-        <!-- Filter Menu -->
-        <ul class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-4 wow fadeInUp">
-          <li class="nav-item"> <a data-filter="*" class="nav-link rounded-0 active" href="">All</a></li>
-          <li class="nav-item"> <a data-filter=".detailed" href="" class="nav-link rounded-0">Detailed</a></li>
-          <li class="nav-item"> <a data-filter=".mockups" href="" class="nav-link rounded-0">Mockups</a></li>
-          <li class="nav-item"> <a data-filter=".youtube" href="" class="nav-link rounded-0">YouTube Videos</a></li>
-          <li class="nav-item"> <a data-filter=".vimeo" href="" class="nav-link rounded-0">Vimeo Videos</a></li>
-        </ul>
-        <!-- Filter Menu end -->
-        <div class="portfolio wow fadeInUp">
-          <div class="row g-4 mt-3 portfolio-filter">
-            <div class="col-sm-6 col-lg-4 detailed">
-              <div class="portfolio-box">
-                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/placeholder.svg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-1.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
-                      <h5 class="text-white text-5">Detailed Project 1</h5>
-                      <span class="text-light">Category</span> </div>
-                  </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero py-5 mt-5">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h1 class="display-4">Sven Degroeve</h1>
+                        <h2 class="h4 text-muted"><span id="typing-animation"></span></h2>
+                        <p class="lead mt-4">
+                            With a keen passion for being an AI evangelist, I aim to inspire organizations to harness the power of artificial intelligence for business growth.
+                        </p>
+                        <div class="mt-4">
+                            <a href="contact.html" class="btn me-2">Contact Me</a>
+                            <a href="#" class="btn" style="background-color: transparent; border: 1px solid #333; color: #333">Download CV</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="col-sm-6 col-lg-4 mockups" data-wow-delay="0.2s">
-              <div class="portfolio-box">
-                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/placeholder.svg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/projects/placeholder.svg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-primary text-8"><i class="fas fa-image"></i></p>
-                      <h5 class="text-white text-5">Mockups Design 1</h5>
-                      <span class="text-light">Category</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 youtube" data-wow-delay="0.3s">
-              <div class="portfolio-box">
-                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/placeholder.svg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-youtube stretched-link" href="https://www.youtube.com/watch?v=PMNnEEEacCg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-primary text-8"><i class="fas fa-video"></i></p>
-                      <h5 class="text-white text-5">YouTube Video</h5>
-                      <span class="text-light">Category</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 vimeo">
-              <div class="portfolio-box">
-                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/placeholder.svg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-vimeo stretched-link" href="https://vimeo.com/259411563"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-primary text-8"><i class="fas fa-video"></i></p>
-                      <h5 class="text-white text-5">Vimeo Video</h5>
-                      <span class="text-light">Category</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 detailed" data-wow-delay="0.2s">
-              <div class="portfolio-box">
-                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/placeholder.svg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-2.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
-                      <h5 class="text-white text-5">Detailed Project 2</h5>
-                      <span class="text-light">Category</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 mockups" data-wow-delay="0.3s">
-              <div class="portfolio-box">
-                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/placeholder.svg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/projects/placeholder.svg"></a>
-                    <div class="portfolio-overlay-details">
-                      <p class="text-primary text-8"><i class="fas fa-image"></i></p>
-                      <h5 class="text-white text-5">Mockups Design 2</h5>
-                      <span class="text-light">Category</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4" style="background-color: #333; color: #fff">
+        <div class="container text-center">
+            <small>&copy; 2024 Sven Degroeve. All rights reserved.</small>
         </div>
-      </div>
-    </section>
-    <!-- Portfolio end --> 
-    
-    <!-- Call to Action
-    ============================================= -->
-    <section>
-      <div class="hero-wrap">
-        <div class="hero-mask opacity-8 bg-dark"></div>
-        <div class="hero-bg parallax" style="background-image:url('images/profile-placeholder.svg');"></div>
-        <div class="hero-content section">
-          <div class="container text-center py-5 wow fadeInUp">
-            <h2 class="text-10 fw-600 text-white mb-5">Interested in working with me?</h2>
-            <a href="#contact" class="btn btn-primary rounded-0 smooth-scroll wow rubberBand" data-wow-delay="1s">Hire Me!</a> </div>
-        </div>
-      </div>
-    </section>
-    <!-- Call to Action end --> 
-    
-    <!-- FAQ
-    ============================================= -->
-    <section id="faq" class="section bg-light">
-      <div class="container">
-        <div class="row gy-5">
-          <div class="col-lg-6 order-1 order-lg-0 wow fadeInUp"> 
-            <!-- Heading -->
-            <p class="text-center text-lg-start mb-2"><span class="bg-primary text-dark px-2">FAQ</span></p>
-            <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Have any questions?</h2>
-            <!-- Heading end-->
-            <div class="accordion accordion-flush" id="faqTopics">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne"> What is Callum? </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#faqTopics">
-                  <div class="accordion-body"> Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet. </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"> How Can I Help You? </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#faqTopics">
-                  <div class="accordion-body">
-                    <p>Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
-                    <p class="mb-0">Nihil anim k
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var typed = new Typed('#typing-animation', {
+            strings: [
+                "AI expert",
+                "Machine Learning Specialist",
+                "Deep Learning Engineer",
+                "Neural Network Developer"
+            ],
+            typeSpeed: 50,
+            backSpeed: 25,
+            loop: true,
+            backDelay: 1000
+        });
+    </script>
+</body>
+</html>
