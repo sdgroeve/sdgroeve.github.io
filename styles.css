@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #e7f1fb;
+    background-color: #ffffff;
 }
 
 main {
@@ -18,11 +18,13 @@ main {
 
 footer {
     flex-shrink: 0;
+    background-color: #ffffff;
+    color: #333;
 }
 
 /* Navigation */
 .navbar {
-    background-color: #e7f1fb
+    background-color: #ffffff
 
 ;
 }
@@ -33,7 +35,7 @@ footer {
 
 /* Hero Section */
 .hero {
-    background-color: #e7f1fb;
+    background-color: #ffffff;
 }
 
 /* Typing Animation */
@@ -47,8 +49,8 @@ footer {
 
 /* Cards */
 .card {
-    border: 1px solid #ddd;
-    background-color: #e7f1fb
+    border: 1px solid #ffffff;
+    background-color: #ffffff
 
 ;
     margin-bottom: 20px;
